@@ -1,0 +1,259 @@
+body , h1 , h2 , ul , li , ol , p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+/* ================================================================================ */
+#cabecalho {
+  background-color: rgb(3, 109, 85);
+  position: fixed;
+  width: 100vw;
+  height: 7vh;
+  z-index: 999999;
+  border-bottom: 5px solid rgb(47, 193, 140);
+}
+
+#cabecalho #titulo {
+  font-size: 4.5vh;
+  display: inline-block;
+  margin: 1vh 3vw;
+  color: white;
+}
+
+#nav-bar {
+  display: inline-block;
+  position: absolute;
+  margin: 2vh 0 2vh 7vw;
+  font-size: 1.5vw;
+  font-family: Epilogue, Verdana, sans-serif;
+}
+
+#nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 2vw;
+  text-align: right;
+}
+
+#nav-bar a , #titulo a {
+  text-decoration-line: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* ================================================================================ */
+#welcome {
+  padding-top: 7vh;
+  width: 100vw;
+  height: 90vh;
+}
+
+#minha_foto {
+  height: 60vh;
+  margin: 13.5vh 5vw;
+  position: relative;
+  border-radius: 50%;
+  border: 3px solid rgb(3, 107, 82);
+  float: left;
+}
+
+#text-welcome {
+  margin: 14vh 5vw 14vh 45vw;
+  min-height: 60vh;
+}
+
+#name-welcome {
+  font-size: 3vw;
+  font-family: Epilogue, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(3, 107, 82);
+  text-shadow: 1px 1px 0 black;
+}
+
+.description-welcome {
+  text-align: justify;
+  font-size: 1.5vw;
+  padding-top: 5vh;
+  font-family: Arial, sans-serif;
+}
+
+/* ================================================================================ */
+#licoes {
+  width: 100vw;
+  height: 155vh;
+}
+
+/* ================================================================================ */
+#div-aprendidas {
+  width: 40vw;
+  margin: 0 5vw;
+  padding-top: 12vh;
+  float: left;
+  text-align: center;
+}
+
+#div-aprendidas h1 {
+  font-size: 6vh;
+  margin-bottom: 5vh;
+  color: rgb(3, 107, 82);
+  text-shadow: 1px 1px 0 black;
+}
+
+#div-aprendidas ol {
+  list-style: none;
+}
+
+#div-aprendidas li {
+  padding: 1vh 3vw;
+  height: 10vh;
+  font-size: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  border: 1px solid black;
+}
+
+/* ================================================================================ */
+#div-aprender {
+  width: 40vw;
+  margin: 0 5vw;
+  padding-top: 12vh;
+  float: left;
+  text-align: center;
+}
+
+#div-aprender h1 {
+  font-size: 6vh;
+  margin-bottom: 5vh;
+  color: rgb(3, 107, 82);
+  text-shadow: 1px 1px 0 black;
+}
+
+#div-aprender ul {
+  list-style: none;
+}
+
+#div-aprender li {
+  font-size: 4vh;
+  line-height: 0.001px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 1vh 3vw;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+  border: 1px solid black;
+}
+
+/* ================================================================================ */
+#licoes li:nth-child( odd ) {
+  background-color: rgb(3, 107, 82);
+}
+
+#licoes li:nth-child( even ) {
+  background-color: rgb(47, 193, 140);
+}
+
+/* ================================================================================ */
+#aprendizado {
+  width: 100vw;
+  height: 53vh;
+}
+
+/* ================================================================================ */
+#sobre-meu-aprendizado {
+  width: 53vw;
+  height: 42vh;
+  text-align: justify;
+  padding: 12vh 5vw 12vh 6vw;
+  float: left;
+}
+
+#sobre-meu-aprendizado h1 {
+  padding-bottom: 4vh;
+  font-size: 4vh;
+  text-align: center;
+  color: rgb(3, 107, 82);
+  text-shadow: 0.5px 0.5px 0 black;
+}
+
+#sobre-meu-aprendizado p {
+  font-size: 3.2vh;
+}
+
+/* ================================================================================ */
+#passagem-aprendizado {
+  width: 30vw;
+  height: 42vh;
+  text-align: justify;
+  padding: 12vh 6vw 12vh 0;
+  float: right;
+}
+
+#passagem-aprendizado h1 {
+  padding-bottom: 4vh;
+  font-size: 4vh;
+  text-align: center;
+  color: rgb(3, 107, 82);
+  text-shadow: 0.5px 0.5px 0 black;
+}
+
+#passagem-aprendizado p {
+  font-size: 3.2vh;
+}
+
+/* ================================================================================ */
+#habilidades-adquiridas {
+  width: 100vw;
+  height: 75vh;
+}
+
+/* ================================================================================ */
+#habilidades-adquiridas h1 {
+  padding: 12vh 0 6vh;
+  text-align: center;
+  color: rgb(3, 107, 82);
+  text-shadow: 1px 1px 0 black;
+}
+
+#habilidades-adquiridas table {
+  text-align: justify;
+  font-size: 3.2vh;
+  margin: 0 5vw;
+  border: 1px solid black;
+}
+
+#habilidades-adquiridas td {
+  padding: 1vh 1vw;
+}
+
+#habilidades-adquiridas td , th {
+  border: 1px solid black;
+}
+
+#habilidades-adquiridas th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* ================================================================================ */
+#rodape {
+  background-color: rgb(3, 107, 82);
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 7vh;
+}
+
+#rodape h2 {
+  font-size: 4.5vh;
+  padding: 1vh 0;
+}
