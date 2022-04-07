@@ -5,6 +5,8 @@ Project responsible for presenting my skills with HTML and CSS
 # Access the project:
 ### https://mateushoffman.github.io/Trybe-Project-01-Lessons-Learned/
 
+###
+
 ### Termos e acordos
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
