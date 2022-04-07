@@ -5,6 +5,12 @@ Project responsible for presenting my skills with HTML and CSS
 # Access the project:
 ### https://mateushoffman.github.io/Trybe-Project-01-Lessons-Learned/
 
+# NOTA
+
+<div align="center" margin="50px">
+	<img src="nota1.png"/>
+</div>
+
 ---
 
 ### Termos e acordos
