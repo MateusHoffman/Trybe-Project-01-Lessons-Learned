@@ -219,6 +219,7 @@ body {
 /* ================================================================================ */
 #habilidades-adquiridas h1 {
   padding: 12vh 0 6vh;
+  font-size: 5vh;
   text-align: center;
   color: rgb(3, 107, 82);
   text-shadow: 1px 1px 0 black;
