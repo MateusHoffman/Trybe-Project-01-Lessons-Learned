@@ -14,5 +14,5 @@ Project responsible for presenting my skills with HTML and CSS
 # Preview:
 
 <div align="center" margin="50px">
-	<img src='img/Project-01.gif'>
+	<img src='img/Project-01.gif' width='1366px'>
 </div>
