@@ -8,5 +8,5 @@ Project responsible for presenting my skills with HTML and CSS
 # NOTA - 100%
 
 <div align="center" margin="50px">
-	<img src="nota-project-01-(1366x1500).png"/>
+	<img src="img/nota-project-01-(1366x1500).png"/>
 </div>
