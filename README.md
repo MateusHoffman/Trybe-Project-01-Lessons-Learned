@@ -14,5 +14,5 @@ Project responsible for presenting my skills with HTML and CSS
 # Preview:
 
 <div align="center" margin="50px">
-	<img src='img/Lessons-Learned.webm' width='1366px'>
+	<img src='img/mateushoffman.github.io_Trybe-Project-01-Lessons-Learned_(1366 x 768).png'>
 </div>
